@@ -27,16 +27,20 @@ nav {
   display:flex;
   padding-top: 4em;
   padding-bottom: 4em;
-  gap: 5em;
+  gap: 1em;
 }
 
-.header-hero>div {
-  width: 50%;
+.header-hero>div.hero-text {
+  width: 40%;
 }
 
 .hero-img {
   width: 100%;
   height: auto;
+}
+
+.hero-img-div {
+  width: 60%;
 }
 
 .hero-text {
@@ -55,6 +59,35 @@ footer {
   text-align: center;
 }
 
+/* section valeurs */
+
+.section-valeur {
+  text-align: center;
+}
+
+.valeurs {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  flex-grow: 1;
+  gap: 4em;
+}
+
+.valeurs-text {
+  font-size: 32px
+}
+.valeur-box {
+  border: 2px solid #3882F6;
+  display: block;
+  width: 100%;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.valeur {
+  width: 20%;
+  height: auto;
+}
 /* testimonial */
 
 .testimonial {
