@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+}
+
+header, footer {
+  background-color: #1F2937;
+  color: #fff;
+}
+
+header {
+
+}
+
+footer {
+  padding: 8px;
+  text-align: center;
+}
+
+.testimonial {
+  background-color: #E5E7EB;
+}
+
+.button-primary {
+  background-color: #3882F6;
+  color: white;
+  border: none;
+  border-radius: 5%;
+}
