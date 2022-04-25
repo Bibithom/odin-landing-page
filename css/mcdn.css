@@ -55,9 +55,32 @@ footer {
   text-align: center;
 }
 
+/* testimonial */
+
 .testimonial {
   background-color: #E5E7EB;
+  padding: 6em 12em;
 }
+.testimonial>div {
+  width:60%;
+  margin:auto
+}
+.testimonial>div>p {
+  margin: 0;
+}
+.quote {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+
+}
+.author {
+  font-size: 24px;
+  font-style: bold;
+  text-align:right;
+}
+
+/* buttons and links */
 
 .button-primary {
   background-color: #3882F6;
@@ -89,6 +112,8 @@ footer {
 .link {
   color: white;
 }
+
+/* Call to Action */
 
 .call-to-action {
   padding: 5em 15em;
